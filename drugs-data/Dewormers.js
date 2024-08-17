@@ -5,11 +5,11 @@ const dewormersData = [
     description:
       "Wormplex is an anti-parasitic medication designed to treat infections caused by intestinal worms. It typically contains a combination of active ingredients that target a range of common intestinal parasites, including roundworms, hookworms, and tapeworms. The medication is used to eliminate these parasites and relieve associated symptoms such as abdominal pain and discomfort.",
     images: [
-      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex0.jpg",
-      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex1.jpg",
-      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex2.jpg",
-      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex3.jpg",
-      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex4.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/Wormplex0.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/Wormplex1.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/Wormplex2.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/Wormplex3.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/Wormplex4.jpg",
     ],
     inStock: true,
     price: "GHS 16.00",
