@@ -5,11 +5,11 @@ const dewormersData = [
     description:
       "Wormplex is an anti-parasitic medication designed to treat infections caused by intestinal worms. It typically contains a combination of active ingredients that target a range of common intestinal parasites, including roundworms, hookworms, and tapeworms. The medication is used to eliminate these parasites and relieve associated symptoms such as abdominal pain and discomfort.",
     images: [
-      "http://localhost:8000/assets/DrugImages/Wormplex0.jpg",
-      "http://localhost:8000/assets/DrugImages/Wormplex1.jpg",
-      "http://localhost:8000/assets/DrugImages/Wormplex2.jpg",
-      "http://localhost:8000/assets/DrugImages/Wormplex3.jpg",
-      "http://localhost:8000/assets/DrugImages/Wormplex4.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex0.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex1.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex2.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex3.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Wormplex4.jpg",
     ],
     inStock: true,
     price: "GHS 16.00",
@@ -32,9 +32,9 @@ const dewormersData = [
     description:
       "Zentel is an anti-parasitic medication used to treat a variety of worm infections. The active ingredient in Zentel is albendazole, which is effective against a range of intestinal parasites, including roundworms, hookworms, tapeworms, and whipworms. Albendazole works by inhibiting the ability of parasites to absorb glucose, leading to their death. Zentel is commonly used to treat infections such as pinworm, ascariasis, and trichuriasis.",
     images: [
-      "http://localhost:8000/assets/DrugImages/Zentel0.webp",
-      "http://localhost:8000/assets/DrugImages/Zentel1.jpg",
-      "http://localhost:8000/assets/DrugImages/Zentel2.jpeg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Zentel0.webp",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Zentel1.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Zentel2.jpeg",
     ],
     inStock: true,
     price: "GHS 22.00",
@@ -57,8 +57,8 @@ const dewormersData = [
     description:
       "Vermox is an anti-parasitic medication containing mebendazole as its active ingredient. Mebendazole works by inhibiting the ability of intestinal worms to absorb glucose, ultimately leading to their death. Vermox is used to treat a range of worm infections, including roundworms, hookworms, whipworms, and pinworms. It is effective against various common parasitic infections and is available in tablet and suspension forms.",
     images: [
-      "http://localhost:8000/assets/DrugImages/Vermox0.jpeg",
-      "http://localhost:8000/assets/DrugImages/Vermox1.png",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Vermox0.jpeg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Vermox1.png",
     ],
     inStock: true,
     price: "GHS 28.00",
@@ -81,9 +81,9 @@ const dewormersData = [
     description:
       "Tanzol is an anti-parasitic medication containing albendazole as its active ingredient. Albendazole is effective against a wide range of intestinal parasites, including roundworms, hookworms, tapeworms, and whipworms. Tanzol works by interfering with the parasites' ability to absorb glucose, leading to their death. It is used to treat various worm infections and is available in tablet and suspension forms.",
     images: [
-      "http://localhost:8000/assets/DrugImages/Tanzol0.jpg",
-      "http://localhost:8000/assets/DrugImages/Tanzol1.jpg",
-      "http://localhost:8000/assets/DrugImages/Tanzol2.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Tanzol0.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Tanzol1.jpg",
+      "https://pharmacy-api-1u0w.onrender.com/assets/DrugImages/Tanzol2.jpg",
     ],
     inStock: true,
     price: "GHS 5.00",
