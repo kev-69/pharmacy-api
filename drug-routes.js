@@ -2,14 +2,14 @@ const express = require('express');
 const router = express.Router();
 
 // Importing drugs data from categories
-const herbalDrugsData = require("./Drugs/HDrugs");
-const malariaDrugsData = require("./Drugs/MDrugs");
-const multivitaminsData = require("./Drugs/Multivitamins");
-const stomachUpsetsData = require("./Drugs/SUpsets");
-const antibioticsData = require("./Drugs/Antibiotics");
-const bloodTonicsData = require("./Drugs/BTonics");
-const coughSyrupsData = require("./Drugs/CCSyrups");
-const dewormersData = require("./Drugs/Dewormers");
+const herbalDrugsData = require("./drugs-data/HDrugs");
+const malariaDrugsData = require("./drugs-data/MDrugs");
+const multivitaminsData = require("./drugs-data/Multivitamins");
+const stomachUpsetsData = require("./drugs-data/SUpsets");
+const antibioticsData = require("./drugs-data/Antibiotics");
+const bloodTonicsData = require("./drugs-data/BTonics");
+const coughSyrupsData = require("./drugs-data/CCSyrups");
+const dewormersData = require("./drugs-data/Dewormers");
 
 router.get("/", (req, res) => {
     const allDrugs = [
