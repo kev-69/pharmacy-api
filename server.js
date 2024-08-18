@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const path = require('path');
 const drugsRoutes = require('./drug-routes');
+const contactRoutes = require('./contact-routes'); // Import contact routes
 require('dotenv').config();
 const port = process.env.PORT || 3000;
 
@@ -17,6 +18,9 @@ app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // Drug Routes
 app.use('/api/drug-routes', drugsRoutes);
+
+// Contact Routes
+app.use('/api', contactRoutes); // Add contact routes
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
