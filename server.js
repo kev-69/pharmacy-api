@@ -14,6 +14,8 @@ app.use(cors());
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+app.use(express.urlencoded({ extended: false }))
+
 // Serve static files (e.g., images)
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
