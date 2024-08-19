@@ -11,20 +11,19 @@ router.post("/contact", async (req, res) => {
     return res.status(400).json({ error: "All fields are required." });
   }
 
-  // Create a transporter object using Outlook SMTP
+  // Create a transporter object using Gmail SMTP
   let transporter = nodemailer.createTransport({
-    host: 'smtp.office365.com',
-    port: 587,
-    secure: false, // Use TLS
+    service: 'gmail', // Use Gmail service
     auth: {
-      user: process.env.OUTLOOK_EMAIL, // Your Outlook email address
-      pass: process.env.OUTLOOK_PASSWORD, // Your Outlook email password or app-specific password
+      user: process.env.GMAIL_EMAIL, // Your Gmail email address
+      pass: process.env.GMAIL_PASSWORD, // Your Gmail password or app-specific password
     },
   });
 
   // Email options
   let mailOptions = {
-    from: email, // Sender's email address (from the form)
+    from: process.env.GMAIL_EMAIL, // Your Gmail email as the sender
+    replyTo: email, // The sender's email address from the form
     to: process.env.RECEIVER_EMAIL, // Receiver's email address (your email)
     subject: `New Contact Form Submission from ${name}`,
     text: `You have received a new message from your contact form:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
