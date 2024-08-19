@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 // Enable CORS for all routes
 app.use(cors());
-app.use(cors({ origin: "https://kina-pharmacy-site.vercel.app/" }))
+// app.use(cors({ origin: "https://kina-pharmacy-site.vercel.app/" }))
 
 // Middleware to parse JSON bodies
 app.use(express.json());
