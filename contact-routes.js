@@ -4,10 +4,10 @@ const router = express.Router();
 
 // POST /api/contact
 router.post("/contact", async (req, res) => {
-  const { name, email, message } = req.body;
+  const { userName, userEmail, userMessage } = req.body;
 
   // Simple validation
-  if (!name || !email || !message) {
+  if (!userName || !userEmail || !userMessage) {
     return res.status(400).json({ error: "All fields are required." });
   }
 
@@ -23,10 +23,10 @@ router.post("/contact", async (req, res) => {
   // Email options
   let mailOptions = {
     from: process.env.GMAIL_EMAIL, // Your Gmail email as the sender
-    replyTo: email, // The sender's email address from the form
+    replyTo: userEmail, // The sender's email address from the form
     to: process.env.RECEIVER_EMAIL, // Receiver's email address (your email)
-    subject: `New Contact Form Submission from ${name}`,
-    text: `You have received a new message from your contact form:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
+    subject: `New Contact Form Submission from ${userName}`,
+    text: `You have received a new message from your contact form:\n\nName: ${userName}\nEmail: ${userEmail}\nMessage: ${userMessage}`,
   };
 
   try {
